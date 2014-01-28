@@ -1,6 +1,9 @@
 /// <reference path="../Scripts/typings/knockout/knockout.d.ts" />
 /// <reference path="../Scripts/typings/jquery.d.ts" />
 /// <reference path="../Scripts/typings/winjs.d.ts" />
+/**
+* handler for setting an ObservableArray as a datasource for as itemDataSource of a winControl
+*/
 ko.bindingHandlers["datasource"] = {
     update: function (element, valueAccessor) {
         var list = valueAccessor() || {};
@@ -11,6 +14,9 @@ ko.bindingHandlers["datasource"] = {
     }
 };
 
+/**
+* handler for using a Knockout template to render the contents of a List or Grid
+*/
 ko.bindingHandlers["template"] = {
     update: function (element, valueAccessor) {
         var itemTemplateFunction = function (itemPromise, recycled) {
