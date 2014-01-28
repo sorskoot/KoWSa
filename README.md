@@ -25,3 +25,10 @@ Example
 &lt;/script>
 </pre>
 
+Notes
+=====
+
+* Tutoral is on it's way.
+* Contains TypeScript and the JavaScript it is compiled to.
+
+
