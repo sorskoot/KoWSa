@@ -31,4 +31,8 @@ Notes
 * Tutoral is on it's way.
 * Contains TypeScript and the JavaScript it is compiled to.
 
+Known bugs
+==========
+* The template handler misses the reference too $root and $parent. 
+
 
